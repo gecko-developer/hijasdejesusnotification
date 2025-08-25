@@ -1,0 +1,10 @@
+### Test RFID Scan
+POST http://192.168.254.194:3000/api/rfid-scan
+Content-Type: application/json
+
+{
+  "rfidId": "TEST_CARD_123",
+  "location": "Main Entrance",
+  "title": "Access Granted",
+  "message": "Welcome to the building!"
+}
