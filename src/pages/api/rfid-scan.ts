@@ -13,7 +13,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   // Add CORS headers
   res.setHeader('Access-Control-Allow-Origin', process.env.NODE_ENV === 'production' 
-    ? 'https://your-domain.vercel.app' 
+    ? 'https://hijasdejesusnotification.vercel.app' 
     : '*'
   );
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
