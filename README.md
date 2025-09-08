@@ -75,6 +75,32 @@ Process an RFID card scan and send notification to the linked user.
 }
 ```
 
+
+## 📲 App Download
+
+Visit [`/download`](./src/app/download/page.tsx) in your deployed app or locally to download the latest Android APK:
+
+- **RFID_APP_2.1.1.apk** — Android, signed build
+
+### Installation Guide
+- **Android:** Enable &quot;Unknown sources&quot; in security settings if needed
+- **Windows:** Requires .NET Framework 4.7.2 or later
+
+You can also copy the direct APK link from the download page for sharing.
+
+## 🔄 Contributing & Pushing
+
+To push your changes to both your personal and company repositories:
+
+```powershell
+git add .
+git commit -m "Your commit message"
+git push origin main
+git push company main
+```
+
+---
+
 ### 📝 Register Token
 **POST** `/api/register-token`
 
